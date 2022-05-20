@@ -1,0 +1,15 @@
+{
+  "name": "tsup-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src --format esm,cjs"
+  },
+  "author": "makotot",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^5.12.8",
+    "typescript": "^4.6.4"
+  }
+}
